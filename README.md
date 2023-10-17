@@ -1,7 +1,7 @@
 # Desafio-ETL-da-Dio-
-Este projeto tem o objetivo de exercitar a Extração, transformação e carregamentos de dados de forma fictícia.  
+Este projeto tem o objetivo de exercitar a Extração, transformação e carregamento de dados de forma fictícia.  
 Exercicio: Carregar uma planilha no formato CVS no Python, extrair desta planilha as informações preenchidas dos clientes, pelo UserID
-Alteração e transformação de dados de dados: Adicionar uma coluna para cada UserID de crédito de R$100,00 
+Alteração e transformação de dados: Adicionar uma coluna para cada UserID de crédito de R$100,00 
 
 Primeiro código feito: 
 mport pandas as pd
