@@ -67,5 +67,28 @@ clientes['Novo Crédito Disponível'] = 100.0
 print("Clientes com Novo Crédito Disponível:")
 print(clientes)
 
+Resultado da impressão:
+ UserID      Nome    Conta  Agencia 
+0       1   Fernanda  0001-1       1.0
+1       2        NaN     NaN       NaN
+2       3     Cicera  0001-2       2.0
+3       4        NaN     NaN       NaN
+4       5  Cristina   0001-3       3.0
+Clientes:
+   UserID      Nome    Conta  Agencia 
+0       1   Fernanda  0001-1       1.0
+2       3     Cicera  0001-2       2.0
+4       5  Cristina   0001-3       3.0
+c:\Users\Ci\Downloads\import pandas as pd.py:22: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  clientes['Novo Crédito Disponível'] = 100.0
+Clientes com Novo Crédito Disponível:
+   UserID      Nome    Conta  Agencia   Novo Crédito Disponível
+0       1   Fernanda  0001-1       1.0                    100.0
+2       3     Cicera  0001-2       2.0                    100.0
+4       5  Cristina   0001-3       3.0                    100.0
 
 
